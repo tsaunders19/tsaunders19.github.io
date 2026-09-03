@@ -28,7 +28,7 @@ p {
     top: 0;
 
     padding: 20px 0;
-    border-bottom: 1px solid #aab8a8;
+    border-bottom: 3px solid #aab8a8;
 
     background-color: #c7d4c5;
 }
@@ -60,7 +60,10 @@ p {
     border-radius: 6px;
 }
 
-.resume-button:hover {
-    background-color: #333333;
-    color: white;
+.resume-button {
+    color: #333333;
+    text-decoration: none;
+    border: 1px solid #6f7f6d;
+    padding: 8px 15px;
+    border-radius: 4px;
 }
