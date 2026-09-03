@@ -19,29 +19,25 @@ p {
     line-height: 1.6;
 }
 
+/* Navigation Bar */
+
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 
-    position: sticky;
-    top: 0;
+    padding: 15px 0 20px 0;
+    margin-bottom: 35px;
 
-    padding: 20px 0;
-    border-bottom: 3px solid #aab8a8;
+    border-bottom: 1px solid #667565;
 
     background-color: #c7d4c5;
-}
-
-.nav-name {
-    font-size: 22px;
-    font-weight: bold;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 28px;
+    gap: 30px;
 }
 
 .nav-links a {
@@ -55,15 +51,12 @@ p {
 }
 
 .resume-button {
-    border: 1px solid #333333;
-    padding: 9px 16px;
-    border-radius: 6px;
+    border: 1px solid #667565;
+    padding: 8px 14px;
+    border-radius: 4px;
 }
 
-.resume-button {
-    color: #333333;
-    text-decoration: none;
-    border: 1px solid #6f7f6d;
-    padding: 8px 15px;
-    border-radius: 4px;
+.resume-button:hover {
+    background-color: #333333;
+    color: white;
 }
