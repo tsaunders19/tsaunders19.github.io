@@ -18,3 +18,49 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+
+    padding: 20px 0;
+    border-bottom: 1px solid #aab8a8;
+
+    background-color: #c7d4c5;
+}
+
+.nav-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.nav-links a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #456882;
+}
+
+.resume-button {
+    border: 1px solid #333333;
+    padding: 9px 16px;
+    border-radius: 6px;
+}
+
+.resume-button:hover {
+    background-color: #333333;
+    color: white;
+}
